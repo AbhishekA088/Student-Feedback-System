@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Poppins&family=Preahvihear&display=swap');
+*,
+*:before,
+*:after {
+  /* box-sizing: border-box; */
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Preahvihear', sans-serif;}
+body {
+  background: url(css/bag-image.jpg)
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: rgb(0, 4, 8);
+  padding: 10px 80px 10px 80px;
+}
+input {
+  outline: none;
+  border: none;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  background-color: aliceblue;
+}
+
+.head {
+  display: inline-block;
+}
+
+#name1 {
+  width: 417px;
+}
+
+#rNo {
+  width: 400px;
+}
+
+#prnNo {
+  width: 400px;
+}
+
+.student-details select,
+.student-details select:focus {
+  outline: none;
+  border: none;
+  padding: 5px 2px 5px 2px;
+  margin: 5px 0 5px 0;
+  background-color: aliceblue;
+}
+.student-details #year {
+  margin-left: 74px;
+}
+.student-details #sem {
+  margin-left: 119px;
+}
+.student-details #date {
+  margin-left: 52px;
+}
+.student-details #branch {
+  margin-left: 136px;
+}
+.student-details #section {
+  margin-left: 135px;
+}
+.student-details #subject {
+  margin-left: 135px;
+}
+.student-feedback label {
+  padding-right: 45px;
+}
+.student-feedback input[type="radio"] {
+  margin: 0 2px 0 2px;
+}
+.student-feedback textarea {
+  width: 500px;
+  height: 100px;
+  outline: none;
+  border: none;
+  padding: 8px;
+  margin: 5px 0 5px 0;
+  background-color: aliceblue;
+}
+.submit-form {
+  padding-top: 20px;
+}
+.submit-form #submit {
+  font-size: medium;
+  font-weight: bold;
+  width: 100px;
+  border: 1px solid black;
+  font-size: medium;
+  border-radius: 6px;
+}
+.admin-login {
+  position: absolute;
+  right: 80px;
+  padding-top: 20px;
+}
+
+.admin-login #admin {
+  border: 1px solid black;
+  font-size: medium;
+  font-weight: bold;
+  width: 100px;
+  border-radius: 6px;
+}
+
+.faculty-login{
+  /* position: absolute; */
+  /* right: 80px; */
+  padding-top: 20px;  
+}
+
+.faculty-login #faculty{
+  border: 1px solid black;
+  font-size: medium;
+  font-weight: bold;
+  width: 100px;
+  border-radius: 6px;
+}
+
+
+.copyright-text {
+  font-size: 14px;
+}

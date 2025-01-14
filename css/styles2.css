@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Poppins&family=Preahvihear&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Preahvihear', sans-serif;
+}
+
+body {
+  background-color:rgb(245, 244, 168);
+  padding: 20px;
+}
+
+.logout {
+  margin: 0 0 15px auto;
+}
+.logout input {
+  outline: none;
+  border: 1px solid black;
+  padding: 8px;
+  background-color: aliceblue;
+  color: black;
+  font-size: medium;
+  width: 85px;
+  border-radius: 6px;
+}
+
+#students-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+#students-table td {
+  text-align: center;
+  border: 1px solid #15191a;
+  padding: 8px;
+}
+#students-table th {
+  text-align: center;
+  padding: 12px 8px 12px 8px;
+  background-color: #1a1a15;
+  color: white;
+}
+#students-table tr {
+  background-color: aliceblue;
+}
+#students-table tr:hover {
+  background-color: rgb(245, 244, 168);
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Poppins&family=Preahvihear&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Preahvihear', sans-serif;}
+
+body {
+  background: url(bag-image.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: rgb(10, 10, 10);
+  padding: 76px 0 0 120px;
+}
+
+.login-form {
+  
+  width: 600px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  padding-bottom: -30px;
+}
+
+input {
+  outline: none;
+  border: none;
+  padding: 8px;
+  margin: 5px 0 5px 0;
+  background-color: rgb(247, 248, 250);
+}
+
+label {
+  font-size: 18px;
+}
+
+#email {
+  margin-left: 105px;
+  width: 250px;
+  border-radius: 6px;
+}
+
+#password {
+  margin-left: 62px;
+  width: 250px;
+  border-radius: 6px;
+}
+
+#login {
+  font-size: medium;
+  font-weight: bold;
+  width: 75px;
+  margin-top: 25px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+
+#login:hover {
+  cursor: pointer;
+}
