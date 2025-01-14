@@ -1,54 +1,34 @@
-# 👨‍🎓📝 Student Feedback Portal
+# Student-Feedback-Management-System  
 
-A student feedback portal built using PHP, SQL and CSS.
+# Overview:
 
-## ⭐ Features
+The Student Feedback Management System is designed to collect feedback from students regarding their subjects and respective faculty. The system ensures that students can provide honest feedback by maintaining anonymity from the faculty while allowing the admin to have full access to the feedback details.
 
-- The students can fill in their details and give their feedback through the main page.
-- The staff with admin privileges can login using the admin button on the main page.
-- After successful login, they are taken to the feedback data page. They can see all responses there in table form.
-- A logout button is provided to avoid anyone else accessing the responses.
+# Features:
 
-#### Feedback Page
+  Student Feedback Submission
+    - Students can submit feedback on various subjects based on a predefined set of questions.
+    - The feedback form ensures ease of use and clarity for students to provide their input.
+    
+  Admin Login
+    - The admin has access to all feedback details, including the names and other information of the students.
+    - Admin can view comprehensive feedback reports for all subjects and faculty members.
+    
+  Faculty Login
+    - Faculty members can view the feedback given for their respective subjects.
+    - The feedback is displayed without showing the student’s personal details to ensure anonymity.
+    - Faculty can use the feedback to improve their teaching methods and subject delivery.
 
-<img alt="" src="https://user-images.githubusercontent.com/59930625/146642944-9582271d-a86e-4c22-aba0-4baddac5ede2.png">
+# Benefits:
 
-#### Admin Login Page
+  Anonymity for Honest Feedback
+    - Students' details are hidden from faculty to encourage genuine and honest feedback.
+    - This anonymity helps in reducing any bias or fear of retribution, ensuring the feedback is authentic.
 
-<img alt="" height="300px" src="https://user-images.githubusercontent.com/59930625/146643139-b894f185-ecc4-4bfd-8284-80234a7c4847.png">
+  Comprehensive Feedback Management
+    - Admins have full visibility over the feedback process, ensuring transparency and accountability.
+    - Detailed feedback reports help in identifying areas of improvement for both subjects and teaching methodologies.
 
-#### Admin Data Page
-
-<img alt="" src="https://user-images.githubusercontent.com/59930625/146644782-c1c59291-229d-4440-a46a-f18d08ef3977.png">
-
-## 💻 Setup
-
-#### Code Setup
-
-1. Fork this repository.
-
-2. Clone the repository in your project folder.
-
-   `git clone https://github.com/<your_username>/dbms_studentfeedback.git`
-
-#### Backend Setup
-
-3. Open the **XAMPP Control Panel** and run the Apache (Webserver) and MySQL (Database Server) servers.
-
-   <img alt="" height="300px" src="https://user-images.githubusercontent.com/59930625/145715844-8b65bf03-615f-429c-9e3c-9dc9440919a1.png">
-
-   _Don't have it already? Download it from [here](https://www.apachefriends.org/download.html)._
-
-4. Move the project folder to `C:\xampp\htdocs`.
-
-5. Go to `http://localhost/phpmyadmin/` in your browser and create a database named `feedback`.
-
-<img alt="" height="180px" src="https://user-images.githubusercontent.com/59930625/146645229-1e1d7449-e150-41cc-88eb-5ce595390d60.png">
-
-6. Import the sql file `feedback.sql` in the database folder to setup the database.
-
-<img alt="" height="250px" src="https://user-images.githubusercontent.com/59930625/146645233-f22bbc6f-81e9-47e0-9a3b-7dd6997d35a1.png">
-
-#### Get Started
-
-7. Go to `http://localhost/feedback/` in your browser and get started.
+  User-Friendly Interface
+    - Intuitive design for easy navigation and feedback submission.
+    - Clear and concise presentation of feedback data for both admin and faculty users.
